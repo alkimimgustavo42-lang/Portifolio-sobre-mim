@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Gustavo Alkimim, estudante de Tecnologia da Informação e desenvolvedor em formação.">
+
+    <title>Gustavo Alkimim | Developer Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="#inicio">
+                Gustavo<span class="destaque">.</span>
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Abrir menu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#conhecimentos">Áreas do conhecimento</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tendencias">Tendências</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- APRESENTAÇÃO -->
+    <section id="inicio" class="inicio">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-7">
+                    <p class="destaque texto-superior">
+                        OLÁ, SEJA BEM-VINDO AO MEU PORTFÓLIO
+                    </p>
+
+                    <h1>Gustavo Alkimim</h1>
+
+                    <h2>
+                        Desenvolvedor em <span class="destaque">formação.</span>
+                    </h2>
+
+                    <p class="descricao">
+                        Sou estudante de Tecnologia da Informação, interessado em programação
+                        e desenvolvimento de sistemas. Gosto de aprender novas tecnologias
+                        e transformar conhecimentos em projetos práticos.
+                    </p>
+
+                    <a href="#projetos" class="btn btn-destaque">
+                        Conheça meus projetos
+                    </a>
+                </div>
+
+                <div class="col-lg-5 text-center mt-5 mt-lg-0">
+                    <div class="foto-perfil" aria-label="Espaço reservado para foto de perfil">
+                        <span>G</span>
+                    </div>
+
+                    <p class="legenda-foto">Foto de perfil em breve</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="secao">
+        <div class="container">
+
+            <div class="cabecalho-secao">
+                <p class="texto-superior destaque">UM POUCO SOBRE MIM</p>
+                <h2>Sobre <span class="destaque">mim</span></h2>
+            </div>
+
+            <p class="texto-sobre">
+                Sou estudante de Tecnologia da Informação no Senac Nações Unidas, com interesse
+                em programação e desenvolvimento de sistemas. Durante minha formação, venho
+                aprendendo diferentes tecnologias e participando de projetos acadêmicos.
+                Pretendo continuar estudando na área, aprimorar minhas habilidades e construir
+                minha carreira no desenvolvimento de software.
+            </p>
+
+            <div class="row mt-5">
+
+                <div class="col-lg-6 mb-4">
+                    <div class="card-habilidade">
+                        <h3>Hard Skills</h3>
+                        <ul>
+                            <li>HTML5 e CSS3</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>MySQL</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="card-habilidade">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Trabalho em equipe</li>
+                            <li>Comunicação</li>
+                            <li>Facilidade para aprender</li>
+                            <li>Resolução de problemas</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ÁREAS DO CONHECIMENTO -->
+    <section id="conhecimentos" class="secao">
+        <div class="container">
+
+            <div class="cabecalho-secao">
+                <p class="texto-superior destaque">MINHA FORMAÇÃO</p>
+
+                <h2>
+                    Áreas do <span class="destaque">conhecimento</span>
+                </h2>
+
+                <p class="texto-introducao">
+                    Durante o Ensino Médio, diferentes disciplinas contribuíram para meu
+                    raciocínio, minha comunicação e minha forma de resolver problemas,
+                    habilidades que também utilizo na área de tecnologia.
+                </p>
+            </div>
+
+            <div class="row mt-4">
+
+                <div class="col-lg-6 col-xl-6 mb-4">
+                    <article class="card-conteudo">
+                        <img src="imagens/ciencias-natureza.svg" alt="Ilustração de elementos da ciência e laboratório">
+
+                        <div class="conteudo-card">
+                            <span class="numero-card">01</span>
+                            <h3>Ciências da Natureza</h3>
+
+                            <p>
+                                Nas atividades de Ciências da Natureza, trabalhei conteúdos de
+                                Química e Física. Um exemplo foi o projeto <strong>Radiação em Foco</strong>,
+                                no qual estudei o Cobalto-60 e o uso da gamagrafia. Esse trabalho
+                                exigiu atenção aos conceitos científicos e à interpretação de
+                                informações. Relaciono esse aprendizado à tecnologia porque
+                                desenvolver sistemas também exige analisar dados, entender
+                                processos e buscar soluções com base em informações.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-6 col-xl-6 mb-4">
+                    <article class="card-conteudo">
+                        <img src="imagens/ciencias-humanas.svg" alt="Ilustração de pessoas e sociedade">
+
+                        <div class="conteudo-card">
+                            <span class="numero-card">02</span>
+                            <h3>Ciências Humanas</h3>
+
+                            <p>
+                                As atividades de Ciências Humanas me ajudaram a refletir sobre
+                                questões sociais e diferentes pontos de vista. Em trabalhos sobre
+                                etarismo e impactos das redes sociais, analisei como situações do
+                                cotidiano afetam as pessoas. Isso se conecta à tecnologia porque
+                                sistemas e plataformas são utilizados por pessoas diferentes e
+                                precisam considerar acessibilidade, respeito e responsabilidade.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-6 col-xl-6 mb-4">
+                    <article class="card-conteudo">
+                        <img src="imagens/matematica.svg" alt="Ilustração de gráficos, números e cálculos">
+
+                        <div class="conteudo-card">
+                            <span class="numero-card">03</span>
+                            <h3>Matemática</h3>
+
+                            <p>
+                                A Matemática contribuiu para meu raciocínio lógico e para a
+                                resolução de problemas por etapas. Na Maratona Tech, trabalhei
+                                com respostas de um formulário, análise de dados, filtros e
+                                gráficos em um dashboard sobre redes sociais e qualidade do sono.
+                                Essa experiência mostrou como a organização e a interpretação
+                                de números ajudam a encontrar padrões e apoiar decisões em
+                                projetos de tecnologia.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-6 col-xl-6 mb-4">
+                    <article class="card-conteudo">
+                        <img src="imagens/linguagens.svg" alt="Ilustração de livros, diálogo e comunicação">
+
+                        <div class="conteudo-card">
+                            <span class="numero-card">04</span>
+                            <h3>Linguagens e suas Tecnologias</h3>
+
+                            <p>
+                                As atividades de Linguagens contribuíram para minha escrita,
+                                interpretação e comunicação. Nas aulas de Inglês, pratiquei
+                                diálogos e apresentações, além de desenvolver a compreensão de
+                                outros idiomas. Na tecnologia, essas habilidades são importantes
+                                para entender documentações, pesquisar soluções, escrever textos
+                                claros e explicar projetos para outras pessoas.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-6 col-xl-6 mb-4">
+                    <article class="card-conteudo">
+                        <img src="imagens/projeto-ano-vida.svg" alt="Ilustração de planejamento, metas e organização pessoal">
+
+                        <div class="conteudo-card">
+                            <span class="numero-card">05</span>
+                            <h3>Projeto de Ano e de Vida</h3>
+
+                            <p>
+                                Essa área me ajudou a refletir sobre meus objetivos pessoais e
+                                profissionais, além da importância do planejamento para alcançar
+                                metas. Durante as atividades, trabalhei questões relacionadas à
+                                organização e ao planejamento financeiro. Também pude pensar
+                                nos próximos passos da minha formação, como continuar aprendendo
+                                programação, estudar Java e me preparar para cursar Análise e
+                                Desenvolvimento de Sistemas. Na tecnologia, ferramentas digitais
+                                podem ajudar a organizar tarefas, acompanhar metas e planejar
+                                projetos.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TENDÊNCIAS TECNOLÓGICAS -->
+    <section id="tendencias" class="secao">
+        <div class="container">
+
+            <div class="cabecalho-secao">
+                <p class="texto-superior destaque">TECNOLOGIA EM EVOLUÇÃO</p>
+
+                <h2>
+                    Tendências <span class="destaque">tecnológicas</span>
+                </h2>
+
+                <p class="texto-introducao">
+                    Algumas tecnologias estão mudando a forma como dados, sistemas e
+                    dispositivos são utilizados. Estas são quatro tendências importantes
+                    para conhecer na área de TI.
+                </p>
+            </div>
+
+            <div class="row mt-4">
+
+                <div class="col-lg-6 mb-4">
+                    <article class="card-conteudo card-tendencia">
+                        <img src="imagens/ciberseguranca.svg" alt="Ilustração de escudo digital representando cibersegurança">
+
+                        <div class="conteudo-card">
+                            <h3>Cibersegurança</h3>
+
+                            <p>
+                                É a área responsável por proteger sistemas, redes e informações
+                                contra acessos indevidos, golpes e ataques digitais. Envolve
+                                práticas como controle de acesso, atualização de sistemas,
+                                criptografia e conscientização dos usuários. É essencial porque
+                                empresas e pessoas dependem cada vez mais de serviços digitais.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <article class="card-conteudo card-tendencia">
+                        <img src="imagens/blockchain.svg" alt="Ilustração de blocos conectados representando blockchain">
+
+                        <div class="conteudo-card">
+                            <h3>Blockchain</h3>
+
+                            <p>
+                                É uma tecnologia de registro distribuído que organiza informações
+                                em blocos conectados e protegidos por mecanismos criptográficos.
+                                Os registros podem ser compartilhados entre participantes de uma
+                                rede, dificultando alterações sem que sejam percebidas. Além das
+                                criptomoedas, pode ser aplicada em rastreabilidade e validação
+                                de registros.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <article class="card-conteudo card-tendencia">
+                        <img src="imagens/automacao-robotica.svg" alt="Ilustração de braço robótico representando automação">
+
+                        <div class="conteudo-card">
+                            <h3>Automação e Robótica</h3>
+
+                            <p>
+                                A automação utiliza sistemas e máquinas para executar tarefas
+                                com menos intervenção manual. A robótica combina componentes
+                                mecânicos, sensores e programação para realizar atividades.
+                                Essas soluções são usadas em indústrias, logística e serviços,
+                                ajudando a repetir processos com precisão e eficiência.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <article class="card-conteudo card-tendencia">
+                        <img src="imagens/edge-computing.svg" alt="Ilustração de dispositivos conectados representando edge computing">
+
+                        <div class="conteudo-card">
+                            <h3>Edge Computing</h3>
+
+                            <p>
+                                É um modelo de processamento que aproxima parte do processamento
+                                dos dados do local onde eles são produzidos, como sensores e
+                                dispositivos conectados. Isso pode reduzir o tempo de resposta
+                                e diminuir a quantidade de informações enviadas para servidores
+                                distantes. É útil em aplicações que precisam reagir rapidamente.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="secao">
+        <div class="container">
+
+            <div class="cabecalho-secao">
+                <p class="texto-superior destaque">O QUE JÁ DESENVOLVI</p>
+                <h2>Meus <span class="destaque">projetos</span></h2>
+
+                <p class="texto-introducao">
+                    Alguns projetos realizados durante minha formação em Tecnologia da Informação.
+                </p>
+            </div>
+
+            <div class="row mt-4">
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <article class="card-projeto">
+                        <img src="imagens/projeto-reservas.svg" alt="Imagem provisória do sistema de reserva de laboratórios">
+
+                        <div class="conteudo-projeto">
+                            <span class="categoria-projeto">Projeto acadêmico</span>
+
+                            <h3>Sistema de Reserva de Laboratórios</h3>
+
+                            <p>
+                                Aplicação desenvolvida em grupo para organizar reservas de
+                                laboratórios. Minha participação foi principalmente na parte
+                                do banco de dados, trabalhando com o armazenamento e a consulta
+                                das informações das reservas.
+                            </p>
+
+                            <div class="tecnologias">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>MySQL</span>
+                            </div>
+
+                            <span class="link-projeto">Repositório em breve</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <article class="card-projeto">
+                        <img src="imagens/projeto-nexora.svg" alt="Imagem provisória do projeto Nexora Tech">
+
+                        <div class="conteudo-projeto">
+                            <span class="categoria-projeto">Projeto em equipe</span>
+
+                            <h3>Nexora Tech</h3>
+
+                            <p>
+                                Projeto de um sistema inteligente de gerenciamento de estoque,
+                                pensado para auxiliar uma empresa no cadastro de materiais,
+                                consulta de disponibilidade e organização das informações.
+                                Atuei principalmente na documentação e organização do projeto.
+                            </p>
+
+                            <div class="tecnologias">
+                                <span>Java</span>
+                                <span>Modelagem</span>
+                                <span>Documentação</span>
+                            </div>
+
+                            <span class="link-projeto">Repositório em breve</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <article class="card-projeto">
+                        <img src="imagens/projeto-ecommerce.svg" alt="Imagem provisória do projeto de e-commerce">
+
+                        <div class="conteudo-projeto">
+                            <span class="categoria-projeto">Desenvolvimento web</span>
+
+                            <h3>E-commerce</h3>
+
+                            <p>
+                                Projeto de uma loja virtual desenvolvido como atividade do curso.
+                                A proposta envolve páginas de produtos, cadastro, organização
+                                dos dados e um fluxo de compra, utilizando tecnologias web.
+                            </p>
+
+                            <div class="tecnologias">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+
+                            <span class="link-projeto">Em desenvolvimento</span>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao">
+        <div class="container">
+
+            <div class="cabecalho-secao">
+                <p class="texto-superior destaque">VAMOS CONVERSAR</p>
+                <h2>Entre em <span class="destaque">contato</span></h2>
+
+                <p class="texto-introducao">
+                    Preencha o formulário ou utilize um dos meus canais de contato.
+                </p>
+            </div>
+
+            <div class="row g-4 mt-3">
+
+                <div class="col-lg-7">
+                    <form id="form-contato" class="form-contato">
+
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome"
+                                name="nome" required maxlength="80">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email"
+                                name="email" required maxlength="120">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="assunto" class="form-label">Assunto</label>
+                            <input type="text" class="form-control" id="assunto"
+                                name="assunto" required maxlength="120">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem"
+                                name="mensagem" rows="5" required maxlength="1500"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-destaque" id="btn-enviar">
+                            Enviar mensagem
+                        </button>
+
+                        <p id="status-formulario" class="status-formulario"
+                            role="status" aria-live="polite"></p>
+
+                    </form>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="card-contato">
+
+                        <h3>Outros canais</h3>
+
+                        <div class="canal-contato">
+                            <h4>GitHub</h4>
+                            <p>Confira meus projetos e códigos.</p>
+
+                            <a href="https://github.com/alkimimgustavo42-lang"
+                                target="_blank" rel="noopener noreferrer">
+                                Acessar GitHub
+                            </a>
+                        </div>
+
+                        <div class="canal-contato">
+                            <h4>WhatsApp</h4>
+                            <p>Vamos conversar sobre ideias e projetos.</p>
+
+                            <a href="https://wa.me/5511930464556?text=Ol%C3%A1!%20Encontrei%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20seu%20trabalho."
+                                target="_blank" rel="noopener noreferrer">
+                                Enviar mensagem
+                            </a>
+                        </div>
+
+                        <div class="canal-contato">
+                            <h4>E-mail</h4>
+                            <p>Entre em contato diretamente comigo.</p>
+
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alkimimgustavo42%40gmail.com&su=Contato%20pelo%20portf%C3%B3lio"
+                                target="_blank" rel="noopener noreferrer">
+                                Enviar e-mail
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PAINEL ADMINISTRATIVO -->
+    <section id="painel-admin" class="painel-admin" hidden>
+        <div class="container">
+
+            <div class="admin-topo">
+                <div>
+                    <p class="texto-superior destaque">ÁREA RESTRITA</p>
+                    <h2>Painel de <span class="destaque">mensagens</span></h2>
+                    <p>Gerencie as mensagens armazenadas neste navegador.</p>
+                </div>
+
+                <button type="button" class="btn btn-outline-light" id="fechar-admin">
+                    Fechar painel
+                </button>
+            </div>
+
+            <div class="admin-resumo">
+                <span id="total-mensagens">0 mensagens</span>
+                <span>Atalho: Ctrl + Shift + A</span>
+            </div>
+
+            <div id="lista-mensagens" class="lista-mensagens"></div>
+
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="text-center py-4">
+        <p>© 2026 Gustavo Alkimim. Todos os direitos reservados.</p>
+
+        <button type="button" class="link-admin" id="abrir-admin"
+            aria-label="Abrir painel administrativo">
+            Acesso administrativo
+        </button>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
